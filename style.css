@@ -184,3 +184,24 @@ accordion{
     padding:15px;
     border-radius:8px;
 }
+body{
+    width:100%;
+    margin:0;
+}
+
+.section{
+    width:95%;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    padding:40px 15px;
+}
+
+.accordion button{
+    font-size:16px;
+    padding:14px;
+}
+
+}
