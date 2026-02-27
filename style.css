@@ -170,3 +170,17 @@ button{
 accordion{
     margin-bottom:20px;
 }
+accordion{
+    margin-bottom:25px !important;
+}
+
+.accordion button{
+    width:100%;
+    padding:15px;
+    border-radius:8px;
+}
+
+.content{
+    padding:15px;
+    border-radius:8px;
+}
