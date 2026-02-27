@@ -1,0 +1,152 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+.header {
+    background: #0d47a1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 30px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}menu {
+    background: #1976d2;
+    text-align: center;
+    padding: 15px;
+}
+
+menu a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}menu {
+    position: sticky;
+    top: 0;
+}whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #0d47a1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1976d2;
+}@media (max-width: 768px) {
+    .section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .banner {
+        height: 200px;
+    }
+}banner {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-bottom: 5px solid #0d47a1;
+}
+
+.header h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}body{
+    font-family: Arial, sans-serif;
+}
+
+.section{
+    margin:25px;
+    padding:35px;
+    border-radius:15px;
+    background:white;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}.section:hover{
+    transform:translateY(-5px);
+    transition:0.4s;
+}
+
+h1,h2{
+    letter-spacing:1px;
+}body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+header{
+    background:linear-gradient(45deg,#0d47a1,#1976d2);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.section{
+    background:white;
+    margin:30px auto;
+    padding:30px;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+button{
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
